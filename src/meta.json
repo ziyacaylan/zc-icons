@@ -1,0 +1,66 @@
+[
+    {
+        "iconName": "Aggregation",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Filter",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Repartition",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Sampling",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "SortNode",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Union",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Distinct",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Expression",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Join",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Select",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Source",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Target",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "Sql",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "SubFlow",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "DummySource",
+        "category": "dfl-flow"
+    },
+    {
+        "iconName": "DummyTarget",
+        "category": "dfl-flow"
+    }
+]
