@@ -42,7 +42,7 @@ export default defineConfig({
     resolve: {
         alias: {
             icons: path.resolve(__dirname, "src/icons"),
-            react: path.resolve(__dirname, "src/react"),
+            components: path.resolve(__dirname, "src/components"),
             svg: path.resolve(__dirname, "src/svg"),
             utils: path.resolve(__dirname, "src/utils"),
         },

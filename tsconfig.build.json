@@ -12,7 +12,14 @@
         "declarationDir": "dist/types",
         "jsx": "react-jsx",
         "strict": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "paths": {
+            "components": ["src/components"],
+            "icons": ["src/icons"],
+            "svg": ["src/svg"],
+            "utils": ["src/utils"]
+        }
     },
     "include": ["src"]
 }
