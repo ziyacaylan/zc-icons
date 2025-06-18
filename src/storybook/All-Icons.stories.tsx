@@ -1,7 +1,6 @@
 import type { Meta } from "@storybook/react";
-import React from "react";
-import iconList from "../meta.json";
-import * as Icons from "../react";
+import * as Icons from "react";
+import iconList from "../../src/meta.json";
 
 const meta: Meta = {
     title: "Overview/All Icons",

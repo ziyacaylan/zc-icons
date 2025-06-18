@@ -8,4 +8,5 @@ export default defineConfig({
     clean: true,
     external: ["react"],
     tsconfig: "./tsconfig.build.json",
+    outDir: "./dist",
 });
