@@ -3,16 +3,14 @@
     "private": true,
     "version": "1.0.0",
     "type": "module",
-    "main": "dist/index.cjs",
-    "module": "dist/index.js",
+    "main": "dist/index.cjs.js",
+    "module": "dist/index.esm.js",
     "types": "dist/index.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/zc-icons.es.js",
-            "require": "./dist/zc-icons.umd.js",
-            "types": "./dist/index.d.ts"
-        },
-        "./*": "./dist/*"
+            "import": "./dist/index.esm.js",
+            "require": "./dist/index.cjs.js"
+        }
     },
     "style": "dist/style.css",
     "description": "A React component library for soccer-related applications.",

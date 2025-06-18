@@ -26,7 +26,8 @@ export default defineConfig({
         cssCodeSplit: true,
         lib: {
             entry: path.resolve(__dirname, "src/index.ts"),
-            name: "ZCIcons",
+            name: "ZcIcons",
+            formats: ["es", "cjs"],
             fileName: (format) => `zc-icons.${format}.js`,
         },
         rollupOptions: {
