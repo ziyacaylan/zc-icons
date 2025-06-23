@@ -1,32 +1,15 @@
 import react from "@vitejs/plugin-react";
 import path from "path";
 import { defineConfig } from "vite";
-import dts from "vite-plugin-dts";
 
 export default defineConfig({
-    plugins: [
-        react(),
-        dts({
-            insertTypesEntry: true,
-            tsconfigPath: path.resolve(__dirname, "tsconfig.app.json"),
-        }),
-    ],
-    css: {
-        preprocessorOptions: {
-            less: {
-                javascriptEnabled: true,
-                additionalData: `@import "${path.resolve(
-                    __dirname,
-                    "src/less/index.less"
-                )}";`,
-            },
-        },
-    },
+    plugins: [react()],
+
     build: {
         cssCodeSplit: true,
         lib: {
             entry: path.resolve(__dirname, "src/index.ts"),
-            name: "ZcIcons",
+            name: "zc-icons",
             formats: ["es", "cjs"],
             fileName: (format) => `zc-icons.${format}.js`,
         },
