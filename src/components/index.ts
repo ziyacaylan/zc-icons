@@ -16,6 +16,7 @@ import Judge from "./Judge";
 import Ellipse from "./Ellipse";
 import Rectangle from "./Rectangle";
 import SoccerField from "./SoccerField";
+import Player01 from "./Player01";
 
 export {
     Arrow,
@@ -35,5 +36,6 @@ export {
     Judge,
     Ellipse,
     Rectangle,
-    SoccerField
+    SoccerField,
+    Player01
 };

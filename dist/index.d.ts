@@ -90,4 +90,6 @@ declare const Rectangle: react.ForwardRefExoticComponent<IconProps & react.RefAt
 
 declare const SoccerField: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-export { Arrow, Ball, CurvedArrow, Ellipse, Flag, FlagWithStand, Hand, Icon, _default as IconProvider, Judge, Player, Rectangle, Shape, SoccerField, SoccerTools, SoccerTools01, TacticTools, Text, ZoomIn$1 as ZoomIn, ZoomIn as ZoomOut, createIconFont, createSvgIcon };
+declare const Player01: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+
+export { Arrow, Ball, CurvedArrow, Ellipse, Flag, FlagWithStand, Hand, Icon, _default as IconProvider, Judge, Player, Player01, Rectangle, Shape, SoccerField, SoccerTools, SoccerTools01, TacticTools, Text, ZoomIn$1 as ZoomIn, ZoomIn as ZoomOut, createIconFont, createSvgIcon };

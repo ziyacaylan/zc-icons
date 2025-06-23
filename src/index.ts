@@ -13,6 +13,7 @@ export {
     Hand,
     Judge,
     Player,
+    Player01,
     Rectangle,
     Shape,
     SoccerField,
