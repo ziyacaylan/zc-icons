@@ -54,8 +54,10 @@ interface IconContextProps {
 }
 declare const _default: React.Provider<IconContextProps>;
 
+declare const Player: React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGElement>>;
+
 declare const ZoomIn$1: React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGElement>>;
 
 declare const ZoomIn: React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGElement>>;
 
-export { Icon, _default as IconProvider, ZoomIn$1 as ZoomIn, ZoomIn as ZoomOut, createIconFont, createSvgIcon };
+export { Icon, _default as IconProvider, Player, ZoomIn$1 as ZoomIn, ZoomIn as ZoomOut, createIconFont, createSvgIcon };

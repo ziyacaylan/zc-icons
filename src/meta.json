@@ -6,5 +6,9 @@
     {
         "iconName": "Zoom out",
         "category": "zc-icons"
+    },
+    {
+        "iconName": "Player",
+        "category": "zc-icons"
     }
 ]

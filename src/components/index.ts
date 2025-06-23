@@ -1,4 +1,5 @@
+import Player from "./Player";
 import ZoomIn from "./ZoomIn";
 import ZoomOut from "./ZoomOut";
 
-export { ZoomIn, ZoomOut };
+export { Player, ZoomIn, ZoomOut };
