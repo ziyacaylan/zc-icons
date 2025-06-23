@@ -3,4 +3,23 @@ export { default as createSvgIcon } from "./createSvgIcon";
 export { default as Icon } from "./Icon";
 export { default as IconProvider } from "./IconProvider";
 
-export { Player, ZoomIn, ZoomOut } from "./components";
+export {
+    Arrow,
+    Ball,
+    CurvedArrow,
+    Ellipse,
+    Flag,
+    FlagWithStand,
+    Hand,
+    Judge,
+    Player,
+    Rectangle,
+    Shape,
+    SoccerField,
+    SoccerTools,
+    SoccerTools01,
+    TacticTools,
+    Text,
+    ZoomIn,
+    ZoomOut,
+} from "./components";
