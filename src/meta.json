@@ -1,14 +1,83 @@
 [
     {
-        "iconName": "Zoom in",
+        "iconName": "ZoomIn",
         "category": "zc-icons"
     },
     {
-        "iconName": "Zoom out",
+        "iconName": "ZoomOut",
         "category": "zc-icons"
     },
     {
         "iconName": "Player",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Arrow",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Ball",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "CurvedArrow",
+        "category": "zc-icons"
+    },
+
+    {
+        "iconName": "Flag",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "FlagWithStand",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Hand",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Judge",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Player",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Player01",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Rectangle",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Ellipse",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Shape",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "SoccerField",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "SoccerTools",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "SoccerTools01",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "TacticTools",
+        "category": "zc-icons"
+    },
+    {
+        "iconName": "Text",
         "category": "zc-icons"
     }
 ]

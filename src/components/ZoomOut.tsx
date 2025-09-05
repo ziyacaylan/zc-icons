@@ -2,11 +2,11 @@
 import createSvgIcon from "../createSvgIcon";
 import ZoomOutSvg from "../icons/ZoomOut";
 
-const ZoomIn = createSvgIcon({
+const ZoomOut = createSvgIcon({
     as: ZoomOutSvg,
     ariaLabel: "zoom out",
     category: "zc icons",
     displayName: "ZoomOutIcon",
 });
 
-export default ZoomIn;
+export default ZoomOut;

@@ -4,7 +4,9 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
     plugins: [react()],
-
+    optimizeDeps: {
+        exclude: ["zc-icons"], // npm link ile eklenen local paket ismi
+    },
     build: {
         cssCodeSplit: true,
         lib: {
@@ -29,6 +31,7 @@ export default defineConfig({
             components: path.resolve(__dirname, "src/components"),
             svg: path.resolve(__dirname, "src/svg"),
             utils: path.resolve(__dirname, "src/utils"),
+            
         },
     },
 });
