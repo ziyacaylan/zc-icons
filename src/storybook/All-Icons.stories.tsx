@@ -62,7 +62,6 @@ export const AllIcons = () => (
         <div className="icon-list">
             {iconList.map(({ iconName, category }) => {
                 const IconComponent = Icons[iconName];
-
                 return (
                     <div key={iconName} className="icon-wrapper">
                         <div className="icon-item" title={iconName}>

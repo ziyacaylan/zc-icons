@@ -70,7 +70,7 @@ const Icon = React.forwardRef<SVGElement, IconProps>(
 Icon.displayName = "Icon";
 
 Icon.propTypes = {
-    as: PropTypes.elementType,
+    as: PropTypes.any,
     spin: PropTypes.bool,
     pulse: PropTypes.bool,
     rotate: PropTypes.number,

@@ -79,5 +79,9 @@
     {
         "iconName": "Text",
         "category": "zc-icons"
+    },
+    {
+        "iconName": "SoccerMind",
+        "category": "zc-icons"
     }
 ]

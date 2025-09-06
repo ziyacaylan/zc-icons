@@ -60,36 +60,36 @@ declare const Ball: react.ForwardRefExoticComponent<IconProps & react.RefAttribu
 
 declare const CurvedArrow: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
+declare const Ellipse: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+
 declare const Flag: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
 declare const FlagWithStand: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
 declare const Hand: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
+declare const Judge: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+
 declare const Player: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const ZoomIn$1: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const Player01: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const ZoomIn: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const Rectangle: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const Text: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const Shape: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const TacticTools: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const SoccerField: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
 declare const SoccerTools: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
 declare const SoccerTools01: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const Shape: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const TacticTools: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const Judge: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const Text: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const Ellipse: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const ZoomIn: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const Rectangle: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+declare const ZoomOut: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-declare const SoccerField: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
-
-declare const Player01: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
-
-export { Arrow, Ball, CurvedArrow, Ellipse, Flag, FlagWithStand, Hand, Icon, _default as IconProvider, Judge, Player, Player01, Rectangle, Shape, SoccerField, SoccerTools, SoccerTools01, TacticTools, Text, ZoomIn$1 as ZoomIn, ZoomIn as ZoomOut, createIconFont, createSvgIcon };
+export { Arrow, Ball, CurvedArrow, Ellipse, Flag, FlagWithStand, Hand, Icon, _default as IconProvider, Judge, Player, Player01, Rectangle, Shape, SoccerField, SoccerTools, SoccerTools01, TacticTools, Text, ZoomIn, ZoomOut, createIconFont, createSvgIcon };
