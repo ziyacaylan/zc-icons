@@ -80,6 +80,8 @@ declare const Shape: react.ForwardRefExoticComponent<IconProps & react.RefAttrib
 
 declare const SoccerField: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
+declare const SoccerMind: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
+
 declare const SoccerTools: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
 declare const SoccerTools01: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
@@ -92,4 +94,4 @@ declare const ZoomIn: react.ForwardRefExoticComponent<IconProps & react.RefAttri
 
 declare const ZoomOut: react.ForwardRefExoticComponent<IconProps & react.RefAttributes<SVGElement>>;
 
-export { Arrow, Ball, CurvedArrow, Ellipse, Flag, FlagWithStand, Hand, Icon, _default as IconProvider, Judge, Player, Player01, Rectangle, Shape, SoccerField, SoccerTools, SoccerTools01, TacticTools, Text, ZoomIn, ZoomOut, createIconFont, createSvgIcon };
+export { Arrow, Ball, CurvedArrow, Ellipse, Flag, FlagWithStand, Hand, Icon, _default as IconProvider, Judge, Player, Player01, Rectangle, Shape, SoccerField, SoccerMind, SoccerTools, SoccerTools01, TacticTools, Text, ZoomIn, ZoomOut, createIconFont, createSvgIcon };

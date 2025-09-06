@@ -17,6 +17,7 @@ export {
     Rectangle,
     Shape,
     SoccerField,
+    SoccerMind,
     SoccerTools,
     SoccerTools01,
     TacticTools,

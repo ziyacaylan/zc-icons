@@ -775,6 +775,7 @@ var SoccerMind2 = createSvgIcon_default({
   category: "zc icons",
   displayName: "Soccer Mind"
 });
+var SoccerMind_default2 = SoccerMind2;
 
 // src/icons/SoccerTools.tsx
 import { forwardRef as forwardRef15 } from "react";
@@ -969,6 +970,7 @@ export {
   Rectangle_default2 as Rectangle,
   Shape_default2 as Shape,
   SoccerField_default2 as SoccerField,
+  SoccerMind_default2 as SoccerMind,
   SoccerTools_default2 as SoccerTools,
   SoccerTools01_default2 as SoccerTools01,
   TacticTools_default2 as TacticTools,

@@ -45,6 +45,7 @@ __export(index_exports, {
   Rectangle: () => Rectangle_default2,
   Shape: () => Shape_default2,
   SoccerField: () => SoccerField_default2,
+  SoccerMind: () => SoccerMind_default2,
   SoccerTools: () => SoccerTools_default2,
   SoccerTools01: () => SoccerTools01_default2,
   TacticTools: () => TacticTools_default2,
@@ -833,6 +834,7 @@ var SoccerMind2 = createSvgIcon_default({
   category: "zc icons",
   displayName: "Soccer Mind"
 });
+var SoccerMind_default2 = SoccerMind2;
 
 // src/icons/SoccerTools.tsx
 var import_react21 = require("react");
@@ -1028,6 +1030,7 @@ var ZoomOut_default2 = ZoomOut2;
   Rectangle,
   Shape,
   SoccerField,
+  SoccerMind,
   SoccerTools,
   SoccerTools01,
   TacticTools,
