@@ -2,6 +2,9 @@
     "name": "@ziyacaylan/zc-icons",
     "private": true,
     "version": "1.0.2",
+     "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
     "type": "module",
     "main": "dist/index.cjs",
     "module": "dist/index.js",
